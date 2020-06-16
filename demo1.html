@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单元素input</title>
+</head>
+<body>
+
+    <div>
+        <label for="zh">ID：</label>
+        <input type="text" name="id" value="请输入你的账号" id="zh"><br/>
+        <label for="pw">Password：</label>
+        <input type="password" name="password" value="请输入你的密码" id="pw">
+    </div>
+
+    <div>
+        Sex：
+        male<input type="radio" name="sex" value="male" checked>female<input type="radio" name="sex" value="female"><br/>
+        Hobby：Basketball<input type="checkbox" name="hobby"  value="baseketball">&nbsp;
+        Football<input type="checkbox" name="hobby"  value="football">&nbsp;
+        Running<input type="checkbox" name="hobby" value="running" checked>&nbsp;
+        Music<input type="checkbox" name="hobby" value="music">
+    </div>
+
+    <div>
+        <input type="submit" value="免费注册"/><br>
+        <input type="reset" value="清除数据"><br>
+        <input type="button" value="获取短信验证码"><br>
+        上传头像：<input type="file">
+    </div>
+    
+    <form>
+        <select>
+            <option value="shanghai">上海</option>
+            <option value="xuzhou">徐州</option>
+            <option value="guangzhou">广州</option>
+            <option value="nanjing">南京</option>
+        </select>
+    </form>
+</body>
+</html>
